@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="dom.css">
+  <title>Accessing elements in the dom with javascript</title>
+</head>
+<body>
+  <hi>Accessing elements in the dom</hi>
+  <h2>ID(#DEMO)</h2>
+  <div id="demo">access me by ID</div>
+
+  <h2>Class(.demo)</h2>
+  <div class="demo">access me by class A</div>
+  <div class="demo">access me by class B</div>
+  <div class="demo">access me by class C</div>
+  
+  <h2>Tag Article</h2>
+  <article>access me by Tag A</article>
+  <article>access me by Tag B</article>
+
+  <h2>Query selector</h2>
+  <div id="demo-query">access me by Query</div>
+
+  <h2>Query selector all</h2>
+  <div class="demo-query-all">access me by Query selector 1</div>
+  <div class="demo-query-all">access me by Query selector 2</div>
+  <br/>
+  <button onclick="changeMe()">Click here</button>
+  <p>Try to change me</p>
+  <br/>
+  <button id="pop">Click me</button>
+  <div id="opp"></div>
+  <script src="dom.js"></script>
+</body>
+</html>
